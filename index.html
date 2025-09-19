@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    @font-face {
+      font-family: "Figtree";
+      src: local("Figtree"),
+        url("assets/fonts/Figtree-VariableFont_wght.ttf");
+    }
+
+    .column {
+      float: left;
+    }
+
+    p:hover{
+      color: #F4D04E;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body style="background-color: #F4D04E; font-family: 'Figtree';">
+  <div class="attribution">
+    <div style="height: 100vh; padding: auto; justify-content: center; align-items: center; display: flex;">
+      <div class="card"
+        style="background-color: #FFF; border-color: black; border-style: solid; border-width: 1px; width: 384px; height: 522px; border-radius: 20px; box-shadow: 8px 8px;">
+        <div>
+          <img alt='illustration' src="assets/images/illustration-article.svg"
+            style="border-radius: 10px; margin-top: 24px;">
+        </div>
+        <div style="padding-left: 24px;padding-top: 24px; width: 336px; height: 194px;">
+          <div
+            style="background-color: #F4D04E; border-radius: 4px; color: #111; font-weight: Bolder; font-size: 14px; line-height: 150%; width: 82px; height: 29px; text-align: center; padding-top:  4px;">
+            Learning
+          </div>
+
+          <p style="font-weight: Medium; font-size: 14px; color: #111; text-align: left;">Published 21 Dec 2023</p>
+
+          <p style="font-weight: bolder; font-size: 24px; text-align: left;">HTML & CSS foundations</p>
+
+          <p style="text-align: left; font-weight: medium; font-size: 16px; color: #6B6B6B;">These languages are the
+            backbone of every website, defining structure, content, and presentation.</p>
+
+        </div>
+        <div class="row" style="padding-left: 24px; padding-top: 24px; text-align: left; width: 129px; height: 32px;">
+          <div class="column"><img alt="avatar" src="assets/images/image-avatar.webp"
+              style="width: 32px; height: 32px; "></div>
+          <div class="column"
+            style="padding-left: 12px; justify-content: center; align-items: center; display: flex; height: 35px;">
+            <p style="font-weight: bolder; font-size: 14px; line-height: 150%;">Greg Hooper</p>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
